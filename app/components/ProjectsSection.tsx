@@ -11,18 +11,18 @@ const projects = [
 		url: 'https://github.com/John-Iliadis/VulkanRenderingEngine',
 	},
 	{
-		title: 'Pixel Adventure',
-		description: 'A fast-paced 2D platformer developed with C++, using SFML as the graphics library.',
-		image: '/PixelAdventure.png',
-		tags: ['C++', 'SFML', 'Tiled'],
-		url: 'https://github.com/John-Iliadis/PixelAdventure',
-	},
-	{
 		title: 'Projectile Motion Simulator',
 		description: 'A physics-based simulator for modeling motion in two dimensions. Written in C++, using OpenGL as the graphics API.',
 		image: '/ProjectileMotion.png',
 		tags: ['C++', 'OpenGL'],
 		url: 'https://github.com/John-Iliadis/ProjectileMotionSimulation',
+	},
+	{
+		title: 'Pixel Adventure',
+		description: 'A fast-paced 2D platformer developed with C++, using SFML as the graphics library.',
+		image: '/PixelAdventure.png',
+		tags: ['C++', 'SFML', 'Tiled'],
+		url: 'https://github.com/John-Iliadis/PixelAdventure',
 	},
 	{
 		title: 'Cloud Architectures Capstone',
