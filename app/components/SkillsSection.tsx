@@ -16,8 +16,12 @@ export default function SkillsSection() {
 						{/* Languages */}
 						<div className="flex flex-wrap items-center gap-4 text-sm mt-2">
 							<span className="text-white font-semibold">Languages:</span>
-							<span className="px-4 py-2 bg-blue-500/10 rounded-full border border-blue-500/20">C++ (Advanced)</span>
-							<span className="px-4 py-2 bg-blue-500/10 rounded-full border border-blue-500/20">Python (Intermediate)</span>
+							<span className="px-4 py-2 bg-blue-500/10 rounded-full border border-blue-500/20">C/C++</span>
+							<span className="px-4 py-2 bg-blue-500/10 rounded-full border border-blue-500/20">Python</span>
+							<span className="px-4 py-2 bg-blue-500/10 rounded-full border border-blue-500/20">Javascript</span>
+							<span className="px-4 py-2 bg-blue-500/10 rounded-full border border-blue-500/20">Java</span>
+							<span className="px-4 py-2 bg-blue-500/10 rounded-full border border-blue-500/20">C#</span>
+							<span className="px-4 py-2 bg-blue-500/10 rounded-full border border-blue-500/20">PHP</span>
 						</div>
 
 						{/* APIs */}
@@ -45,6 +49,17 @@ export default function SkillsSection() {
 							<span className="px-4 py-2 bg-blue-500/10 rounded-full border border-blue-500/20">Data Structures and Algorithms</span>
 							<span className="px-4 py-2 bg-blue-500/10 rounded-full border border-blue-500/20">Concurrency</span>
 							<span className="px-4 py-2 bg-blue-500/10 rounded-full border border-blue-500/20">Debugging</span>
+						</div>
+
+						{/* Web Dev */}
+						<div className="flex flex-wrap items-center gap-4 text-sm mt-4">
+							<span className="text-white font-semibold">Web Dev:</span>
+							<span className="px-4 py-2 bg-blue-500/10 rounded-full border border-blue-500/20">React</span>
+							<span className="px-4 py-2 bg-blue-500/10 rounded-full border border-blue-500/20">Laravel</span>
+							<span className="px-4 py-2 bg-blue-500/10 rounded-full border border-blue-500/20">Fast API</span>
+							<span className="px-4 py-2 bg-blue-500/10 rounded-full border border-blue-500/20">SQL</span>
+							<span className="px-4 py-2 bg-blue-500/10 rounded-full border border-blue-500/20">NoSQL</span>
+							<span className="px-4 py-2 bg-blue-500/10 rounded-full border border-blue-500/20">Tailwind</span>
 						</div>
 
 						{/* STEM */}
