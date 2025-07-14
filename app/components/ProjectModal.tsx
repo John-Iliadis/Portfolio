@@ -1,7 +1,17 @@
 import { motion, AnimatePresence } from 'framer-motion';
-import React from "react";
+import React, {useEffect} from "react";
 
 export default function ProjectModal({ onClose, children }: { onClose: () => void, children: React.ReactNode }) {
+
+    useEffect(() => {
+        // Prevent scrolling
+        document.body.style.overflow = 'hidden';
+
+        // Cleanup to re-enable scrolling
+        return () => {
+            document.body.style.overflow = '';
+        };
+    }, []);
 
     return (
         <AnimatePresence>
