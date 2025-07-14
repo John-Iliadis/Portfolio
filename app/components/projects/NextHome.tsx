@@ -7,7 +7,7 @@ export default function ProjectileMotionSimulator()
             <hr className={"mb-1 border-gray-400 border-t-1"}/>
             <ul className="list-disc list-outside pl-5 mt-4">
                 <li>A high-distinction project involving the development of a real-estate app for forecasting housing market dynamics.</li>
-                <li>Built a D3.js data visualization dashboard to present dynamic, interactive insights from the AI model's predictions.</li>
+                <li>Built a D3.js data visualization dashboard to present dynamic, interactive insights from the AI model&#39;s predictions.</li>
                 <li>Cleaned and processed a 2-million-record real estate dataset using Pandas to improve accuracy and reduce bias.</li>
                 <li>Trained a price prediction model using various machine learning algorithms, achieving 80% accuracy.</li>
             </ul>

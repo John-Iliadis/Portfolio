@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Image from "next/image";
 
 export default function VulkanRenderingEngine()
 {
@@ -49,17 +49,17 @@ export default function VulkanRenderingEngine()
           <hr className={"mb-1 border-gray-400 border-t-1"}/>
 
           <h3 className="text-xl font-bold mb-2 mt-3">Physically Based Rendering + Image Based Lighting</h3>
-          <img src="/vulkan_rendering_engine/IBL2_gizmo_bloom.png" alt="PBR + IBL"/>
+          <Image src="/vulkan_rendering_engine/IBL2_gizmo_bloom.png" alt={"d"}/>
 
           <h3 className="text-xl font-bold mb-2 mt-3">Bloom</h3>
-          <img src="/vulkan_rendering_engine/bloom1.png" alt="bloom 1" className={"mb-4"}/>
-          <img src="/vulkan_rendering_engine/bloom2.png" alt="bloom 2"/>
+          <Image src="/vulkan_rendering_engine/bloom1.png" alt="bloom 1" className={"mb-4"}/>
+          <Image src="/vulkan_rendering_engine/bloom2.png" alt="bloom 2"/>
 
           <h3 className="text-xl font-bold mb-2 mt-3">Screen Space Ambient Occlusion (SSAO)</h3>
-          <img src="/vulkan_rendering_engine/ssao.png" alt="ssao"/>
+          <Image src="/vulkan_rendering_engine/ssao.png" alt="ssao"/>
 
           <h3 className="text-xl font-bold mb-2 mt-3">Shadow Mapping</h3>
-          <img src="/vulkan_rendering_engine/shadow_mapping.png" alt="shadow mapping"/>
+          <Image src="/vulkan_rendering_engine/shadow_mapping.png" alt="shadow mapping"/>
       </div>
     );
 }

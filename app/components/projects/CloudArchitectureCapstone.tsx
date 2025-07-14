@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function CloudArchitectureCapstone()
 {
     return (
@@ -20,7 +22,7 @@ export default function CloudArchitectureCapstone()
             <h2 className="text-2xl font-bold mb-2 mt-4">Architecture</h2>
             <hr className={"mb-3 border-gray-400 border-t-1"}/>
 
-            <img src="/CloudArchitectureDiagram.png"/>
+            <Image src="/CloudArchitectureDiagram.png" alt={"d"}/>
         </div>
     );
 }
