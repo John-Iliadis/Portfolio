@@ -11,7 +11,7 @@ import NextHome from './projects/NextHome';
 
 const projects = [
 	{
-		title: 'Vulkan Rendering Engine',
+		title: 'Ypsilantis Rendering Engine',
 		description: 'A physically based forward+ rendering engine made with C++ using the Vulkan API.',
 		image: '/IBL2_gizmo_bloom.png',
 		tags: ['C++', 'Vulkan'],

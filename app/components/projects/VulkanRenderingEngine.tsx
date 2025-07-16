@@ -1,14 +1,12 @@
-import Image from "next/image";
-
 export default function VulkanRenderingEngine()
 {
     return (
       <div>
-          <h1 className="text-3xl font-bold mb-4">Vulkan Rendering Engine</h1>
+          <h1 className="text-3xl font-bold mb-4">Ypsilantis Rendering Engine</h1>
 
           <hr className={"mb-1 border-gray-400 border-t-1"}/>
           <p className={"mt-4 mb-1"}>A physically based forward+ rendering engine made with C++ using the Vulkan API.</p>
-          <p>GitHub Link: <a className={"text-blue-700 underline"} href="https://github.com/John-Iliadis/VulkanRenderingEngine">https://github.com/John-Iliadis/VulkanRenderingEngine</a></p>
+          <p>GitHub Link: <a className={"text-blue-700 underline"} href="https://github.com/John-Iliadis/YpsilantisRenderingEngine">https://github.com/John-Iliadis/YpsilantisRenderingEngine</a></p>
 
           <h2 className="text-2xl font-bold mb-2 mt-4">Features</h2>
           <hr className={"mb-1 border-gray-400 border-t-1"}/>
@@ -49,17 +47,17 @@ export default function VulkanRenderingEngine()
           <hr className={"mb-1 border-gray-400 border-t-1"}/>
 
           <h3 className="text-xl font-bold mb-2 mt-3">Physically Based Rendering + Image Based Lighting</h3>
-          <Image src="/vulkan_rendering_engine/IBL2_gizmo_bloom.png" alt={"d"}/>
+          <img src="/vulkan_rendering_engine/IBL2_gizmo_bloom.png" alt={"d"}/>
 
           <h3 className="text-xl font-bold mb-2 mt-3">Bloom</h3>
-          <Image src="/vulkan_rendering_engine/bloom1.png" alt="bloom 1" className={"mb-4"}/>
-          <Image src="/vulkan_rendering_engine/bloom2.png" alt="bloom 2"/>
+          <img src="/vulkan_rendering_engine/bloom1.png" alt="bloom 1" className={"mb-4"}/>
+          <img src="/vulkan_rendering_engine/bloom2.png" alt="bloom 2"/>
 
           <h3 className="text-xl font-bold mb-2 mt-3">Screen Space Ambient Occlusion (SSAO)</h3>
-          <Image src="/vulkan_rendering_engine/ssao.png" alt="ssao"/>
+          <img src="/vulkan_rendering_engine/ssao.png" alt="ssao"/>
 
           <h3 className="text-xl font-bold mb-2 mt-3">Shadow Mapping</h3>
-          <Image src="/vulkan_rendering_engine/shadow_mapping.png" alt="shadow mapping"/>
+          <img src="/vulkan_rendering_engine/shadow_mapping.png" alt="shadow mapping"/>
       </div>
     );
 }
