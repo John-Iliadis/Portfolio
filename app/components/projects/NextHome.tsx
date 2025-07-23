@@ -9,6 +9,7 @@ export default function ProjectileMotionSimulator()
                 <li>A high-distinction project involving the development of a real-estate app for forecasting housing market dynamics.</li>
                 <li>Built a D3.js data visualization dashboard to present dynamic, interactive insights from the AI model&#39;s predictions.</li>
                 <li>Cleaned and processed a 2-million-record real estate dataset using Pandas to improve accuracy and reduce bias.</li>
+                <li>Used the Seaborn library to analyze the dataset and visualize feature relationships.</li>
                 <li>Trained a price prediction model using various machine learning algorithms, achieving 80% accuracy.</li>
             </ul>
 
