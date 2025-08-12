@@ -25,6 +25,13 @@ const projects = [
 		component: ProjectileMotionSimulator,
 	},
 	{
+		title: 'Pixel Adventure',
+		description: 'A fast-paced 2D platformer developed with C++, using SFML. Made with the pixel adventure assets from itch.io.',
+		image: '/PixelAdventure.png',
+		tags: ['C++', 'SFML', 'Tiled'],
+		component: PixelAdventure,
+	},
+	{
 		title: 'Next Home',
 		description: 'A high-distinction project involving the development of a real-estate web app for forecasting housing market dynamics.',
 		image: '/pic2.png',
@@ -37,13 +44,6 @@ const projects = [
 		image: '/CloudArchitectureDiagram.png',
 		tags: ['AWS', 'Cloud Computing', 'Serverless'],
 		component: CloudArchitectureCapstone,
-	},
-	{
-		title: 'Pixel Adventure',
-		description: 'A fast-paced 2D platformer developed with C++, using SFML. Made with the pixel adventure assets from itch.io.',
-		image: '/PixelAdventure.png',
-		tags: ['C++', 'SFML', 'Tiled'],
-		component: PixelAdventure,
 	},
 ];
 
