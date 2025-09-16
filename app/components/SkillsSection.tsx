@@ -18,18 +18,19 @@ export default function SkillsSection() {
 							<span className="text-white font-semibold">Languages:</span>
 							<span className="px-4 py-2 bg-blue-500/10 rounded-full border border-blue-500/20">C/C++</span>
 							<span className="px-4 py-2 bg-blue-500/10 rounded-full border border-blue-500/20">Python</span>
-							<span className="px-4 py-2 bg-blue-500/10 rounded-full border border-blue-500/20">Javascript</span>
 							<span className="px-4 py-2 bg-blue-500/10 rounded-full border border-blue-500/20">Java</span>
 							<span className="px-4 py-2 bg-blue-500/10 rounded-full border border-blue-500/20">C#</span>
-							<span className="px-4 py-2 bg-blue-500/10 rounded-full border border-blue-500/20">PHP</span>
+							<span className="px-4 py-2 bg-blue-500/10 rounded-full border border-blue-500/20">GLSL</span>
+							<span className="px-4 py-2 bg-blue-500/10 rounded-full border border-blue-500/20">HLSL</span>
 						</div>
 
 						{/* APIs */}
 						<div className="flex flex-wrap items-center gap-4 text-sm mt-4">
-							<span className="text-white font-semibold">Graphics APIs:</span>
+							<span className="text-white font-semibold">Graphics/APIs:</span>
 							<span className="px-4 py-2 bg-blue-500/10 rounded-full border border-blue-500/20">Vulkan</span>
 							<span className="px-4 py-2 bg-blue-500/10 rounded-full border border-blue-500/20">OpenGL</span>
-							<span className="px-4 py-2 bg-blue-500/10 rounded-full border border-blue-500/20">GLSL</span>
+							<span className="px-4 py-2 bg-blue-500/10 rounded-full border border-blue-500/20">Direct3D 12</span>
+							<span className="px-4 py-2 bg-blue-500/10 rounded-full border border-blue-500/20">Windows API</span>
 						</div>
 
 						{/* Developer Tools */}
@@ -49,17 +50,6 @@ export default function SkillsSection() {
 							<span className="px-4 py-2 bg-blue-500/10 rounded-full border border-blue-500/20">Data Structures and Algorithms</span>
 							<span className="px-4 py-2 bg-blue-500/10 rounded-full border border-blue-500/20">Concurrency</span>
 							<span className="px-4 py-2 bg-blue-500/10 rounded-full border border-blue-500/20">Debugging</span>
-						</div>
-
-						{/* Web Dev */}
-						<div className="flex flex-wrap items-center gap-4 text-sm mt-4">
-							<span className="text-white font-semibold">Web Dev:</span>
-							<span className="px-4 py-2 bg-blue-500/10 rounded-full border border-blue-500/20">React</span>
-							<span className="px-4 py-2 bg-blue-500/10 rounded-full border border-blue-500/20">Laravel</span>
-							<span className="px-4 py-2 bg-blue-500/10 rounded-full border border-blue-500/20">Fast API</span>
-							<span className="px-4 py-2 bg-blue-500/10 rounded-full border border-blue-500/20">SQL</span>
-							<span className="px-4 py-2 bg-blue-500/10 rounded-full border border-blue-500/20">NoSQL</span>
-							<span className="px-4 py-2 bg-blue-500/10 rounded-full border border-blue-500/20">Tailwind</span>
 						</div>
 
 						{/* STEM */}
