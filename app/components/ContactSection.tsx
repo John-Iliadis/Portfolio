@@ -23,7 +23,7 @@ export default function ContactSection() {
 								Email: giannisiliadis2k15@gmail.com
 							</p>
 							<p className="text-gray-400 text-center mb-4">
-								Contact Number: +61 468 760 344
+								Contact Number: +30 697 56 38 108
 							</p>
 							<div className="flex items-center justify-center gap-2 text-gray-400 mb-8">
 								<svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -35,7 +35,7 @@ export default function ContactSection() {
 									/>
 									<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
 								</svg>
-								<span>Templestowe Lower, VIC</span>
+								<span>Athens, Greece</span>
 							</div>
 						</motion.div>
 						<div id="contact links" className="flex flex-col items-center gap-6 mb-8">

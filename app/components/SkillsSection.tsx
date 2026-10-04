@@ -20,8 +20,8 @@ export default function SkillsSection() {
 							<span className="px-4 py-2 bg-blue-500/10 rounded-full border border-blue-500/20">Python</span>
 							<span className="px-4 py-2 bg-blue-500/10 rounded-full border border-blue-500/20">Java</span>
 							<span className="px-4 py-2 bg-blue-500/10 rounded-full border border-blue-500/20">C#</span>
+							<span className="px-4 py-2 bg-blue-500/10 rounded-full border border-blue-500/20">PHP</span>
 							<span className="px-4 py-2 bg-blue-500/10 rounded-full border border-blue-500/20">GLSL</span>
-							<span className="px-4 py-2 bg-blue-500/10 rounded-full border border-blue-500/20">HLSL</span>
 						</div>
 
 						{/* APIs */}
@@ -29,7 +29,7 @@ export default function SkillsSection() {
 							<span className="text-white font-semibold">Graphics/APIs:</span>
 							<span className="px-4 py-2 bg-blue-500/10 rounded-full border border-blue-500/20">Vulkan</span>
 							<span className="px-4 py-2 bg-blue-500/10 rounded-full border border-blue-500/20">OpenGL</span>
-							<span className="px-4 py-2 bg-blue-500/10 rounded-full border border-blue-500/20">Direct3D 12</span>
+							<span className="px-4 py-2 bg-blue-500/10 rounded-full border border-blue-500/20">DirectX 12</span>
 							<span className="px-4 py-2 bg-blue-500/10 rounded-full border border-blue-500/20">Windows API</span>
 						</div>
 

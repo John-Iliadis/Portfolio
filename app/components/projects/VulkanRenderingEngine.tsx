@@ -2,11 +2,11 @@ export default function VulkanRenderingEngine()
 {
     return (
       <div>
-          <h1 className="text-3xl font-bold mb-4">Ypsilantis Rendering Engine</h1>
+          <h1 className="text-3xl font-bold mb-4">Vulkan Rendering Engine</h1>
 
           <hr className={"mb-1 border-gray-400 border-t-1"}/>
           <p className={"mt-4 mb-1"}>A physically based forward+ rendering engine made with C++ using the Vulkan API.</p>
-          <p>GitHub Link: <a className={"text-blue-700 underline"} href="https://github.com/John-Iliadis/YpsilantisRenderingEngine">https://github.com/John-Iliadis/YpsilantisRenderingEngine</a></p>
+          <p>GitHub Link: <a className={"text-blue-700 underline"} href="https://github.com/John-Iliadis/VulkanRenderingEngine">https://github.com/John-Iliadis/VulkanRenderingEngine</a></p>
 
           <h2 className="text-2xl font-bold mb-2 mt-4">Features</h2>
           <hr className={"mb-1 border-gray-400 border-t-1"}/>
